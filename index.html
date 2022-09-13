@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Los lenguajes del navegador</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <h1>Los lenguajes del navegador</h1>
+      <h3>HTML, CSS y JavaScript</h3>
+    </div>
+
+    <div class="html-exp">
+      <h2>¿Qué es HTML?</h2>
+      <p>
+        HTML significa <em>HyperText Markup Language</em> y se utiliza para
+        crear la <strong>estructura y el contenido</strong> de una página web.
+      </p>
+
+      <h5>Puntos clave:</h5>
+      <ul>
+        <li>HTML es un lenguaje muy sencillo compuesto de elementos</li>
+        <li>
+          Un elemento HTML normalmente consta de una etiqueta de inicio y una
+          etiqueta de finalización, con el contenido insertado entre ambas.
+        </li>
+      </ul>
+
+      <div class="html-img">
+        <img src="img/html-img.png" alt="codigo html IMG" />
+      </div>
+    </div>
+
+    <div class="css-exp">
+      <h2>¿Qué es CSS?</h2>
+      <p>
+        CSS es un lenguaje que los desarrolladores web utilizan para agregar
+        estilo al contenido HTML en una página web. A través de CSS es posible
+        modificar colores, tipos de letra, tamaños de letra, imágenes,
+        posicionamiento de elementos y mucho más.
+      </p>
+
+      <h5>Puntos clave:</h5>
+      <ol>
+        <li>
+          Utilizamos reglas de CSS para seleccionar elementos de una página web
+          y poder asignarle estilos a esos elementos.
+        </li>
+        <li>
+          Utilizamos selectores para decirle a nuestras reglas de CSS a cuales
+          elementos aplicarle estilos.
+        </li>
+      </ol>
+    </div>
+
+    <div class="js-exp">
+      <h2>¿Qué es JavaScript?</h2>
+      <p>
+        JavaScript es un lenguaje de programación que se usa para crear
+        interactividad dinámica en los sitios web. Junto con HTML y CSS, es una
+        tecnología central que hace que la web funcione.
+        <br />
+        <br />
+        A través de los <em>event listeners y event handlers</em> de JavaScript,
+        puedes definir como tu página web reaccionara2 a la interacción con el
+        usuario. Por ejemplo, puedes generar un evento que detone cuando el
+        usuario da click sobre un flappy bird.
+      </p>
+    </div>
+
+    <div class="flappy-js">
+      <img id="flappy-bird" src="img/flappy-bird.png" alt="Flappy bird IMG" />
+    </div>
+
+    <script>
+      const flappyBird = document.querySelector("#flappy-bird");
+      flappyBird.addEventListener("click", function () {
+        alert("Hola!");
+      });
+    </script>
+  </body>
+</html>

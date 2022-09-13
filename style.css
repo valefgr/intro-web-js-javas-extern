@@ -1,0 +1,47 @@
+* {
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("img/bg.jpg");
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.html-exp,
+.css-exp,
+.js-exp {
+  padding: 60px;
+}
+
+.html-img {
+    text-align: center;
+  }
+
+.flappy-js {
+  background-image: url("img/fb-game-background.png");
+  height: 580px;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+#flappy-bird {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
